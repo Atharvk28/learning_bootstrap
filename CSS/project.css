@@ -1,0 +1,17 @@
+.bg-nav-color{
+  background-color: #fe7705;
+  font-size: 25px;
+}
+.bg-button-color{
+  background-color: #002440;
+}
+.active-navb{
+  background-color: #002440;
+
+}
+.dropdown-item{
+  height: 60px;
+  background-color: rgb(57, 40, 40);
+  font-size: 25px;
+
+}

@@ -3,7 +3,37 @@
   font-size: 25px;
 }
 .bg-section-color{
+  /* footer color home page  */
   background-color: #002440;
+}
+.bg-btn-color{
+  background-color: #fe7705;
+}
+.bg-btn-color:hover{
+  font-size: 23px;
+  background-color: #fe7705;
+}
+.bdr-radius{
+  /* border radius for home contacts services etc  */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.nav-link{
+  margin-right: 5px; 
+}
+.active{
+  font-size: 17px;
+  border-radius: 10px;
+
+}
+.nav-link:hover{
+  font-size: 23px;
+  background-color: #fe7705;
+  border-color: #fe7505de;
+  border-radius: 10px;
+
 }
 .active-navb{
   background-color: #fe7705;
@@ -17,7 +47,13 @@
 }
 .footer-links{
   text-decoration:none;
-  font-size: 25px;
+  font-size: 22px;
   list-style-type: none;
   color: white;
+}
+.card:hover{
+  border-color: #fe7705;
+  background-color: #fe7705;
+  
+
 }

@@ -41,8 +41,7 @@
 }
 .dropdown-item{
   height: 60px;
-  background-color: rgb(57, 40, 40);
-  font-size: 25px;
+  font-size: 22px;
 
 }
 .footer-links{
@@ -52,8 +51,14 @@
   color: white;
 }
 .card:hover{
+  /* caard hover effect  */
   border-color: #fe7705;
-  background-color: #fe7705;
-  
+  background-color: #b95f15;
+  color: white;
+}
+.card-img-top{
+/* image size in cards */
+width:270px;
+height:152px;
 
 }

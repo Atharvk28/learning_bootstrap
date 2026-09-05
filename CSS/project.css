@@ -2,11 +2,11 @@
   background-color: #fe7705;
   font-size: 25px;
 }
-.bg-button-color{
+.bg-section-color{
   background-color: #002440;
 }
 .active-navb{
-  background-color: #002440;
+  background-color: #fe7705;
 
 }
 .dropdown-item{
@@ -14,4 +14,10 @@
   background-color: rgb(57, 40, 40);
   font-size: 25px;
 
+}
+.footer-links{
+  text-decoration:none;
+  font-size: 25px;
+  list-style-type: none;
+  color: white;
 }

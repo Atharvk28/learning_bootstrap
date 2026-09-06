@@ -165,27 +165,35 @@
 
       <!-- slider ends here......  -->
 
+      <!-- form section starts here....  -->
       <section class="m-2 p-3">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <form action="#" method="get" class="p-3 border border-danger">
-                <label for="c-name">Selefct your car type </label>
-                <input type="text" id="c-name" name="c-name" />
+              <form action="result.html" method="get" class="p-3 border border-danger select-car-form">
+                <caption>Select the car </caption>
+                <div>
+                <label for="c-name">Select your car type </label>
+                <input type="text" id="c-name" name="c-name" required />
 
+                
                 <label for="pick-up">Pick-up</label>
-                <input type="text" id="pick-up" name="p-up" />
+                <input type="text" id="pick-up" name="p-up" required />
 
                 <label for="d-of">Drop-of</label>
-                <input type="text" id="d-of" name="d-of" />
-
+                <input type="text" id="d-of" name="d-of" required />
+                </div>
+                <div>
                 <label for="d-p-up d-p-time">Pick-up</label>
-                <input type="date" name="d-p-up" id="d-p-up" />
-                <input type="time" name="d-p-time" id="d-p-time" />
+                <input type="date" name="d-p-up" id="d-p-up" required />
+                <input type="time" name="d-p-time" id="d-p-time" required/>
 
                 <label for="d-d-of d-d-time">Drop-of</label>
-                <input type="date" name="d-d-of" id="d-d-of" />
-                <input type="time" name="d-d-time" id="d-d-time" />
+                <input type="date" name="d-d-of" id="d-d-of" required />
+                <input type="time" name="d-d-time" id="d-d-time" required />
+
+                <button type="submit">Submit</button>
+                </div>
               </form>
             </div>
           </div>
@@ -209,7 +217,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Mahindra Thar</h5>
                   <p class="card-text">
-                   <ul>
+                   <ul class="ul-style-none">
                     <li>Petrol</li>
                     <li>Doors: 3</li>
                     <li>Seats: 5</li>
@@ -229,7 +237,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Maruti Suzuki Swift</h5>
                   <p class="card-text">
-                   <ul>
+                   <ul class="ul-style-none">
                     <li>Petrol</li>
                     <li>Doors: 4</li>
                     <li>Seats: 5</li>
@@ -245,11 +253,11 @@
             <div class="col-md-3">
               <!-- card 3 -->
               <div class="card" style="width: 17rem">
-                <img src="images/nexon.jfif" class="card-img-top" alt="..." />
+                <img src="images/nexon.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Tata Nexon</h5>
                   <p class="card-text">
-                   <ul>
+                   <ul class="ul-style-none ">
                     <li>Petrol</li>
                     <li>Doors: 4</li>
                     <li>Seats: 5</li>
@@ -268,7 +276,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Hundai i20</h5>
                   <p class="card-text">
-                   <ul>
+                   <ul class="ul-style-none">
                     <li>Petrol</li>
                     <li>Doors: 4 </li>
                     <li>Seats: 5 </li>
@@ -283,9 +291,9 @@
           </div>
         </div>
       </section>
-      <!-- csrd section ends here...  -->
+      <!-- card section ends here...  -->
 
-      <!-- new section starts here...  -->
+      <!-- accordian  section starts here...  -->
       <section class="pb-4">
         <div class="container">
           <div class="row">
@@ -426,6 +434,7 @@
           </div>
         </div>
       </section>
+      <!-- accordian section ends here...  -->
     </main>
     <!-- main ends here....  -->
 
@@ -478,8 +487,7 @@
                 >
                   <img
                     src="images/icons/icons8-email-50.png"
-                    height="27"
-                    width="27"
+                    class="icon-size"
                     alt=""
                   />
                   rentwheels@gmail.com</a
@@ -489,7 +497,7 @@
                 <a href="" class="footer-links"
                   ><img
                     src="images/icons/icons8-phone-50.png"
-                    height="30"
+                    class="icon-size"
                     alt=""
                   />
                   (020)-653258</a
@@ -499,30 +507,31 @@
                 <a href=""
                   ><img
                     src="images/icons/icons8-facebook-ios-27-filled-32.png"
-                    height="45"
+                   class="icon-size"
                     alt=""
                 /></a>
                 <a href=""
                   ><img
                     src="images/icons/icons8-instagram-50.png"
-                    height="45"
+                   class="icon-size"
                     alt=""
                 /></a>
 
                 <a href=""
                   ><img
                     src="images/icons/icons8-linkedin-ios-27-filled-32.png"
-                    height="45"
+                   class="icon-size"
                     alt=""
                 /></a>
 
-                <a href=""><img src="images/icons/icons8-x-45.png" alt="" /></a>
+                <a href=""><img src="images/icons/icons8-x-45.png" class="icon-size" alt="" /></a>
               </div>
             </div>
           </div>
         </div>
       </section>
     </footer>
+    <!-- footer ends here....  -->
     <!-- script link !!!!!!!!!!!!!  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

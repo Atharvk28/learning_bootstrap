@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .select-car-form {
+        display: grid;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      action="result.html"
+      method="get"
+      class="p-3 border border-danger select-car-form"
+    >
+      <caption>
+        Select the car
+      </caption>
+      <div>
+        <label for="c-name">Select your car type </label>
+        <input type="text" id="c-name" name="c-name" required />
+
+        <label for="pick-up">Pick-up</label>
+        <input type="text" id="pick-up" name="p-up" required />
+
+        <label for="d-of">Drop-of</label>
+        <input type="text" id="d-of" name="d-of" required />
+      </div>
+      <div>
+        <label for="d-p-up d-p-time">Pick-up</label>
+        <input type="date" name="d-p-up" id="d-p-up" required />
+        <input type="time" name="d-p-time" id="d-p-time" required />
+
+        <label for="d-d-of d-d-time">Drop-of</label>
+        <input type="date" name="d-d-of" id="d-d-of" required />
+        <input type="time" name="d-d-time" id="d-d-time" required />
+
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

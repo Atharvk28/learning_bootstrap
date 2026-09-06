@@ -20,6 +20,16 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+.car-select-form{
+  /* form for selecrt car and bike....  */
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  word-spacing: 5px;
+}
+.ul-style-none{
+  list-style: none;
+}
 .nav-link{
   margin-right: 5px; 
 }
@@ -56,9 +66,14 @@
   background-color: #b95f15;
   color: white;
 }
+
 .card-img-top{
 /* image size in cards */
 width:270px;
 height:152px;
 
+}
+.icon-size{
+  /* size for footer icons  */
+  height: 20px;
 }

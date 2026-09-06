@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="booking-form">
+
+    <h2>Book a car</h2>
+
+    <!-- First Row -->
+    <div class="form-row">
+
+        <div class="form-group">
+            <label for="carType">Select Your Car Type</label>
+            <select id="carType" name="carType">
+                <option value="">Select your car type</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="hatchback">Hatchback</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="pickupLocation">Pick-up</label>
+            <select id="pickupLocation" name="pickupLocation">
+                <option value="">Select pick-up location</option>
+                <option value="location1">
+                    Santa Monica - 2102 Lincoln Blvd
+                </option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="dropoffLocation">Drop-off</label>
+            <select id="dropoffLocation" name="dropoffLocation">
+                <option value="">Select drop-off location</option>
+                <option value="location1">
+                    3669 Oliver Street Wedgwood Texas
+                </option>
+            </select>
+        </div>
+
+    </div>
+
+
+    <!-- Second Row -->
+    <div class="form-row-bottom">
+
+        <div class="form-group">
+            <label for="pickupDate">Pick-up</label>
+            <input type="date" id="pickupDate" name="pickupDate">
+        </div>
+
+        <div class="form-group">
+            <label for="pickupTime">&nbsp;</label>
+            <input type="time" id="pickupTime" name="pickupTime">
+        </div>
+
+
+        <div class="form-group">
+            <label for="dropoffDate">Drop-off</label>
+            <input type="date" id="dropoffDate" name="dropoffDate">
+        </div>
+
+        <div class="form-group">
+            <label for="dropoffTime">&nbsp;</label>
+            <input type="time" id="dropoffTime" name="dropoffTime">
+        </div>
+
+
+        <button type="submit" class="search-btn">
+            Search
+        </button>
+
+    </div>
+
+</div>
+</body>
+</html>

@@ -72,26 +72,40 @@
 
   <main class="">
     <!-- slider starts here....  -->
-    <div id="carouselExample" class="carousel slide" data-bs-ride="true">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/carousel selected.png" class="d-block w-100" alt="..." />
+
+        <div class="carousel-item active" data-bs-interval="1000">
+          <img src="images/carousel selected.png" class="d-block w-100" alt="Car">
         </div>
-        <div class="carousel-item">
-          <img src="images/carousel selected 2.png" class="d-block w-100" alt="..." />
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/carousel selected 2.png" class="d-block w-100" alt="Car">
         </div>
-        <div class="carousel-item">
-          <img src="images/carousel selected 3" class="d-block w-100" alt="..." />
+
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/careousel selected 3.png" class="d-block w-100" alt="Car">
         </div>
+
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
+
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
+
       </button>
+
     </div>
 
     <!-- slider ends here......  -->
@@ -103,10 +117,10 @@
           <div class="col-md-12">
             <form action="">
               <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label"></label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  
-</div>
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+              </div>
             </form>
           </div>
         </div>
@@ -138,7 +152,8 @@
                   <li>Luggage: 2 bags</li>
                 </ul>
                 </p>
-                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal" data-bs-target="#mahindra_thar_blk">
+                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal"
+                  data-bs-target="#mahindra_thar_blk">
                   Know More...
                 </button>
               </div>
@@ -160,7 +175,9 @@
                   <li>Luggage: 2 bags</li>
                 </ul>
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal" data-bs-target="#ms_swift">
+                  Know More...
+                </button>
               </div>
             </div>
           </div>
@@ -180,7 +197,9 @@
                   <li>Luggage: 2 bags</li>
                 </ul>
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal" data-bs-target="#tata_nexon">
+                  Know More...
+                </button>
               </div>
             </div>
           </div>
@@ -199,7 +218,9 @@
                   <li>Luggage: 2 bags </li>
                 </ul>
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal" data-bs-target="#hudai_i20">
+                  Know More...
+                </button>
               </div>
             </div>
           </div>
@@ -305,8 +326,8 @@
 
   <!-- footer starts here....  -->
   <footer class="mt-3">
-    <section class="bg-section-color pt-4 pb-4">
-      <div class="container text-white">
+    <section class="bg-section-color pt-4 ">
+      <div class="container text-white pb-4">
         <div class="row">
           <div class="col-md-3">
             <img src="images/sq logo.png " alt="logo" height="90" width="250" class="img-fluid nav-b" />
@@ -316,7 +337,7 @@
             <ul class="footer-links">
               <li><a href="index.html" class="footer-links">Home</a></li>
               <li>
-                <a href="pages/about_us.html" class="footer-links">about Us</a>
+                <a href="pages/about_us.html" class="footer-links">About Us</a>
               </li>
               <li>
                 <a href="pages/contact.html" class="footer-links">Contact</a>
@@ -330,6 +351,7 @@
           <div class="col-md-3">
             <h4>Address</h4>
             <address>
+              <img src="images/icons/icons8-location-40.png" class="icon-size" alt="">
               Shop No. 1, Kanher Rd, Suvarngad Apartment Near Travel India
               Club, Rajendra Nagar, Navi Peth, Sadashiv Peth, Pune,
               Maharashtra 411030, India
@@ -359,8 +381,17 @@
             </div>
           </div>
         </div>
+        </div>
+      </div>
+      <div class="containe copyright-text">
+        <div class="row ">
+          <div class="col-md-12 ">
+          <p> &copy; 2026 RentWheels. All Rights Reserved. | Your Journey. Your Wheels. Your Way.</p>
+          </div>
       </div>
     </section>
+    
+    
 
   </footer>
   <!-- footer ends here....  -->
@@ -386,17 +417,17 @@
                   <li>Type: SUV</li>
                   <li>Seating: 4 passengers</li>
                   <li>Transmission: Manual / Automatic</li>
-                 <li> Fuel: Petrol / Diesel</li>
+                  <li> Fuel: Petrol / Diesel</li>
                   <li>Drive: 4×4 available</li>
                   <li>Mileage: Approx. 9–15 km/l(depending on variant and driving conditions)</li>
-                Rental Price: ₹2,499/day (example price for your project)
+                  Rental Price: ₹2,499/day (example price for your project)
                   <li></li>
                 </ul>
 
 
 
-                
-                 
+
+
               </div>
             </div>
           </div>
@@ -408,10 +439,111 @@
       </div>
     </div>
   </div>
+
+  <!-- second modal...  -->
+  <div class="modal fade" id="ms_swift" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Maruti Suzuki Swift</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6"><img src="images/swift.jfif" height="120" alt=""></div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Type:</strong> Hatchback</li>
+                  <li><strong>Seating:</strong> 5 passengers</li>
+                  <li><strong>Transmission:</strong> Manual / Automatic</li>
+                  <li><strong>Fuel:</strong> Petrol / CNG</li>
+                  <li><strong>Drive:</strong> Front-Wheel Drive (FWD)</li>
+                  <li><strong>Mileage:</strong> Approx. 24–25 km/l (Petrol) / 32+ km/kg (CNG)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">proceed</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- third modal...  -->
+  <div class="modal fade" id="tata_nexon" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">TATA Nexon</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6"><img src="images/nexon.png" height="120" alt=""></div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Type:</strong> Compact SUV</li>
+                  <li><strong>Seating:</strong> 5 passengers</li>
+                  <li><strong>Transmission:</strong> Manual / Automatic</li>
+                  <li><strong>Fuel:</strong> Petrol / Diesel / CNG</li>
+                  <li><strong>Drive:</strong> Front-Wheel Drive (FWD)</li>
+                  <li><strong>Mileage:</strong> Approx. 17–24 km/l or km/kg depending on fuel and variant</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">proceed</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fourth modal...  -->
+  <div class="modal fade" id="hudai_i20" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Hundai i20</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6"><img src="images/i20.jfif" height="120" alt=""></div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Type:</strong> Premium Hatchback</li>
+                  <li><strong>Seating:</strong> 5 passengers</li>
+                  <li><strong>Transmission:</strong> Manual / Automatic</li>
+                  <li><strong>Fuel:</strong> Petrol</li>
+                  <li><strong>Drive:</strong> Front-Wheel Drive (FWD)</li>
+                  <li><strong>Mileage:</strong> Approx. 16–20 km/l depending on variant and transmission</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">proceed</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- script link !!!!!!!!!!!!!  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

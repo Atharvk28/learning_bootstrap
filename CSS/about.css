@@ -1,2 +1,9 @@
-
-
+.about-us-fixed-img{
+  margin: 3px;
+  padding: 3px;
+  width: 800px;
+  background: url(../images/about-bg-car.png) left  no-repeat fixed ;
+  /* background-size: 600px 350px;  */
+  background-position: left bottom;
+ 
+}

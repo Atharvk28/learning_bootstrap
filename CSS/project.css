@@ -11,8 +11,8 @@
   color: aliceblue;
 }
 .bg-btn-color:hover{
-  font-size: 23px;
-  background-color: #fe7705;
+  color: black;
+  background-color: #efedeb;
 }
 .bdr-radius{
   /* border radius for home contacts services etc  */
@@ -66,8 +66,8 @@
 }
 .card:hover{
   /* caard hover effect  */
-  border-color: #fe7705;
-  background-color: #b95f15;
+  border-color: #000000;
+  background-color:#002440;
   color: white;
 }
 
@@ -81,4 +81,23 @@ height:152px;
   /* size for footer icons  */
   height: 20px;
   background-color:transparent;
+}
+
+/* home page modal list  */
+.modal-header,.modal-body,.modal-footer{
+  background-color: #002440;
+  color: white;
+}
+.copyright-text{
+  margin-top: 4px;
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #efedeb;
+  font-size: 15px;
+  font-weight: 300;
+  border-top: 1px solid black;
+
+
 }

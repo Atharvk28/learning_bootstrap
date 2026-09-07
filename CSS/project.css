@@ -8,6 +8,7 @@
 }
 .bg-btn-color{
   background-color: #fe7705;
+  color: aliceblue;
 }
 .bg-btn-color:hover{
   font-size: 23px;
@@ -52,7 +53,10 @@
 .dropdown-item{
   height: 60px;
   font-size: 22px;
-
+}
+.dropdown-item:hover{
+  background-color: #fe7705;
+  font-size: 22px;
 }
 .footer-links{
   text-decoration:none;
@@ -76,4 +80,5 @@ height:152px;
 .icon-size{
   /* size for footer icons  */
   height: 20px;
+  background-color:transparent;
 }

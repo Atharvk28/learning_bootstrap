@@ -1,14 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About us</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="../CSS/project.css">
-</head>
-<body>
- <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/project.css" />
+  </head>
+
+  <body>
+    <!-- header starts here...  -->
+    <header>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
@@ -34,18 +41,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="premium.html"
+                <a class="nav-link" aria-current="page" href="premium.html"
                   >Premium</a
                 >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link "
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   >Home</a
                 >
               </li>
@@ -64,14 +65,22 @@
                   More
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="cars.html">Rent car</a></li>
-                  <li><a class="dropdown-item" href="bikes.html">Rent bike </a></li>
-                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="cars.html">Rent car</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="bikes.html">Rent bike </a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
                   <li><a class="dropdown-item" href="other.html">Other</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active active-navb" href="contact.html">Contact</a>
+                <a class="nav-link active active-navb" href="contact.html"
+                  >Contact</a
+                >
               </li>
             </ul>
             <form class="d-flex">
@@ -92,8 +101,56 @@
         </div>
       </nav>
     </header>
-  <!-- script link !!!!!!!!!!!!!  -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- header ends here..  -->
+    <!-- main starts here...  -->
+    <main>
+      <!-- form section starts here...  -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <form action="">
+                <div class="mb-3">
+                  <label for="username" class="form-label"
+                    >Enter your name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                 <div class="mb-3">
+                  <label for="usseremail" class="form-label"
+                    >Enter Email </label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="useremail"
+                    placeholder="Enter your name"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/place/Shrimant+Dagdusheth+Halwai+Ganpati+Mandir/@18.5164156,73.8511786,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2c06fa5b442ff:0x9df365f5b648bce1!8m2!3d18.5164157!4d73.8560495!16s%2Fm%2F04zxxlg?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D" frameborder="1" height="300" width="500"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- map section iframe tag is used  -->
+      <section>
+        
+      </section>
+    </main>
 
-</body>
+    <!-- script link !!!!!!!!!!!!!  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .grid-container {
+  display: grid;
+  /* Creates 3 columns: the first is 100px wide, the second and third split the remaining space evenly */
+  grid-template-columns: 100px 1fr 1fr; 
+  
+  /* Creates 2 rows: both will automatically resize to fit their content */
+  grid-template-rows: auto auto; 
+  
+  /* Adds a 20px gap (gutter) between all boxes */
+  gap: 20px; 
+}
+
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+  <div class="item">
+    <!-- container one  -->
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui vero nesciunt quo nulla quas pariatur ut doloremque ad, voluptates nemo sit assumenda in ex exercitationem, eos doloribus! Hic, iusto dolores! Recusandae deleniti iste unde obcaecati maxime, at asperiores modi ratione, repudiandae odit laudantium dignissimos mollitia optio molestiae cupiditate. Perspiciatis, architecto.</p>
+  </div>
+  <div class="item">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum dolore, quod veritatis perferendis natus enim tempore blanditiis reiciendis veniam fugit nesciunt tempora inventore id in iure. Vel iusto totam officia, reprehenderit sed mollitia ipsam sunt, aliquam, aspernatur omnis illo in beatae nobis ab? Aperiam.</p>
+  </div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+
+</body>
+</html>

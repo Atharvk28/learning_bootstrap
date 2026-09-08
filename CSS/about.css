@@ -1,9 +1,29 @@
+.posi-rel{
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color:#002440;
+  height: 550px;
+  width: 850px;
+
+}
+
 .about-us-fixed-img{
-  margin: 3px;
-  padding: 3px;
-  width: 800px;
-  background: url(../images/about-bg-car.png) left  no-repeat fixed ;
-  /* background-size: 600px 350px;  */
-  background-position: left bottom;
+  margin-bottom: 5px;
+  padding: bottom 3px; 
+  width: 850px;
+  height: 550px;
+  /* border: 1px solid red;  */
+  background: url(../images/about-bg-car.png) left  no-repeat;
+  /* background-size: 550px 350px;  */
+  background-position:  ;
+  position: absolute;
+  right: 2px;
+/* left: 0px;
+bottom: 10px; */
+
  
 }

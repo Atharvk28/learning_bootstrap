@@ -1,6 +1,5 @@
-.bg-nav-color{
-  background-color: #fe7705;
-  font-size: 25px;
+.header-height-fa{
+  height: 90px;
 }
 .bg-section-color{
   /* footer color home page  */
@@ -65,14 +64,14 @@
   color: white;
 }
 .card:hover{
-  /* card hover effect  */
+  /* card hover effect  in home page */
   border-color: #000000;
   background-color:#002440;
   color: white;
 }
 
 .card-img-top{
-/* image size in cards */
+/* image size in cards in home page  */
 width:270px;
 height:152px;
 

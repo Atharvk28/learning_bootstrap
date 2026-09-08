@@ -65,7 +65,7 @@
   color: white;
 }
 .card:hover{
-  /* caard hover effect  */
+  /* card hover effect  */
   border-color: #000000;
   background-color:#002440;
   color: white;
@@ -98,6 +98,17 @@ height:152px;
   font-size: 15px;
   font-weight: 300;
   border-top: 1px solid black;
+}
 
+/* car near faqs css  */
+.car-posi{
+  position: relative;
 
+}
+.car-img-fixed{
+  margin: 5PX;
+  padding: 5px;
+  position: absolute;
+  right: 5px;
+  width:700px ;
 }

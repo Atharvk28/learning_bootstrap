@@ -12,12 +12,12 @@
 }
 
 .about-us-fixed-img{
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   padding: bottom 3px; 
   width: 850px;
   height: 550px;
   /* border: 1px solid red;  */
-  background: url(../images/about-bg-car.png) left  no-repeat;
+  background: url(../images/crop-img.png) left  no-repeat;
   /* background-size: 550px 350px;  */
   background-position:  ;
   position: absolute;

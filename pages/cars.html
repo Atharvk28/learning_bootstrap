@@ -1,114 +1,478 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About us</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="../CSS/project.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../CSS/project.css" />
+  <link rel="stylesheet" href="../CSS/cars_page" />
 </head>
+
 <body>
+  <!-- header starts here...  -->
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
-            <img
-              src="../images/selected logo.png"
-              alt=""
-              width="250"
-              height="120"
-              class="d-inline-block align-text-top"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="premium.html"
-                  >Premium</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link "
-                  aria-current="page"
-                  href="../index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about_us.html">About Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="contact.html"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  More
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item active active-navb" href="cars.html">Rent car</a></li>
-                  <li><a class="dropdown-item" href="bikes.html">Rent bike </a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="other.html">Other</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                class="btn btn-outline-success bg-button-color"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../images/selected logo.png" alt="" width="250" height="120"
+            class="d-inline-block align-text-top" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="premium.html">Premium</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item active active-navb" href="cars.html">Rent car</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="bikes.html">Rent bike </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="other.html">Other</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          
         </div>
-      </nav>
-    </header>
-    <!-- main starts here...  -->
-     <main>
-        <!-- cards... -->
-         <section>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3"></div>
-              <div class="col-md-3"></div>
-              <div class="col-md-3"></div>
-              <div class="col-md-3"></div>
+      </div>
+    </nav>
+    <!-- nav bar for filters  -->
+    <nav>
+<section>
+  <div class="container-fluid mt-5 bg-dark pt-3 mb-5 pb-3">
+    <div class="row ">
+      <div class="col-md-6">
+        <ul>
+          <li>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#filters-for-car-page" aria-controls="offcanvasExample">
+  filters
+</button>
+          </li>
+         
+        </ul>
+      </div>
+      <div class="col-md-6"><form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success bg-button-color" type="submit">
+              Search
+            </button>
+          </form></div>
+    </div>
+  </div>
+</section>
+    </nav>
+  </header>
+  <!-- header ends here...  -->
+
+  <!-- aside bar starts here...  -->
+   <aside>
+<!-- canvas starts here...  -->
+ <div class="offcanvas offcanvas-start" tabindex="-1" id="filters-for-car-page" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
+
+   </aside>
+
+  <!-- main starts here...  -->
+  <main>
+    <!-- cards... -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <!-- card 1  -->
+            <!-- Mahindra Thar -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/thar.jpg" alt="thar" class="card-img-car-page" />
+              <dimg-iv class="card-body">
+                <h4 class="card-title">Mahindra Thar</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 3</li>
+                  <li>Seats: 4</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 1 bag</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tharModal">
+                  Know More
+                </button>
+              </dimg-iv>
             </div>
           </div>
-         </section>
-      </main>
-      <!-- main ends here...  -->
-  <!-- script link !!!!!!!!!!!!!  -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+          <div class="col-md-3">
+            <!-- card 2  -->
+            <!-- Tata Nexon -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/nexon.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Tata Nexon</h4>
 
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 2 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#nexonModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 3  -->
+            <!-- Maruti Suzuki Swift -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/swift.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Maruti Suzuki Swift</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 2 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#swiftModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 4  -->
+            <!-- Hyundai i20 -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/i20.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Hyundai i20</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 2 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#i20Modal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <!-- card 5  -->
+            <!-- Hyundai Creta -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/creta.png" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Hyundai Creta</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 3 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cretaModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 6  -->
+            <!-- Kia Seltos -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/seltos.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Kia Seltos</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 3 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#seltosModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 7  -->
+            <!-- Toyota Urban Cruiser Hyryder -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/toyota_urban_crusier_hryder.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Toyota Urban Cruiser Hyryder</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 3 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hyryderModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 8  -->
+            <!-- Maruti Suzuki Baleno -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/Suzuki-Baleno.png" alt="car" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Maruti Suzuki Baleno</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 2 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#balenoModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <!-- card 9  -->
+            <!-- Tata Punch -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/punch.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Tata Punch</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 2 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#punchModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 10  -->
+            <!-- Hyundai Venue -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/hundai venue.jpg" alt="car" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Hyundai Venue</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 2 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#venueModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 11  -->
+            <!-- Kia Sonet -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/kia-sonet.jpg" alt="car " class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Kia Sonet</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 2 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sonetModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 12  -->
+            <!-- Maruti Suzuki Brezza -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/maruti_suzuki_brezza.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Maruti Suzuki Brezza</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 3 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#brezzaModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <!-- card 13  -->
+            <!-- Toyota Innova Crysta -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/innova_crysta.png" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Toyota Innova Crysta</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Diesel</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 7</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 3 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#innovaModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 14  -->
+            <!-- Mahindra XUV700 -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/mahindra_xuv700.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Mahindra XUV700</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Petrol</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 7</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 3 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#xuv700Modal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 15  -->
+            <!-- Tata Harrier -->
+            <div class="card card_size_car_page" style="width: 18rem">
+              <img src="../images/harrier.jpg" alt="car image" class="card-img-car-page" />
+              <div class="card-body">
+                <h4 class="card-title">Tata Harrier</h4>
+
+                <ul class="card-text">
+                  <li>Fuel: Diesel</li>
+                  <li>Doors: 4</li>
+                  <li>Seats: 5</li>
+                  <li>Transmission: Automatic</li>
+                  <li>Luggage: 3 bags</li>
+                </ul>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#harrierModal">
+                  Know More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cards end...  -->
+  </main>
+  <!-- main ends here...-->
+
+<!-- footer starts here...  -->
+ <footer>
+
+ </footer>
+ <!-- footer ends here...  -->
+  <!-- script link !!!!!!!!!!!!!  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

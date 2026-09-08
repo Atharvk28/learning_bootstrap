@@ -1,0 +1,14 @@
+.card-img-car-page{
+width: 285px;
+height:152px;
+}
+.card_size_car_page{
+  margin-top: 5px;
+  padding-top:4px ;
+border: 3px solid black;
+  height: 300px !important;
+}
+.row{
+  margin-bottom: 5px;
+  height: 400px;
+}

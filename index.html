@@ -12,71 +12,57 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <!-- custom css link  -->
+  <link rel="stylesheet" href="CSS/home.css">
   <link rel="stylesheet" href="CSS/project.css" />
 </head>
 
 <body>
   <!-- header starts here  -->
-  <header class="header-height-fa">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
+  <header class="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-prime-col">
+      <div class="container-fluid ">
         <a class="navbar-brand" href="index.html">
-          <img src="images/selected logo.png" alt="" width="220" height="90" class="d-inline-block align-text-top" />
+          <img src="images/selected logo 123.png" alt="" width="220" height="90"
+            class="d-inline-block align-text-top " />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-l g-0 fs-5">
+          <ul class="navbar-nav  me-auto mb-l g-0 fs-5">
+
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="pages/premium.html">Premium</a>
+              <a class="nav-link  header-hover font-sec-col active active-navb" aria-current="page"
+                href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active active-navb" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link header-hover font-sec-col" href="pages/about_us.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/about_us.html">About Us</a>
+              <a class="nav-link header-hover font-sec-col" href="pages/cars.html">Rent car</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Services
+            <li class="nav-item">
+              <a class="nav-link header-hover font-sec-col" href="pages/bikes.html">Rent bike
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="pages/cars.html">Rent car</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="pages/bikes.html">Rent bike
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="pages/other.html">Other</a>
-                </li>
-              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/contact.html">Contact</a>
+              <a class="nav-link header-hover font-sec-col " href="pages/contact.html">Contact</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-success bg-btn-color" type="submit">
-              Search
-            </button>
-          </form>
+          <ul class="navbar-nav ">
+            <li>
+              <button class="btn text-white bg-sec-col ">Book Now</button>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
   </header>
-<!-- main starts here...  -->
+  <!-- main starts here...  -->
   <main class="">
     <!-- slider starts here....  -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" height="150px">
 
       <div class="carousel-inner">
 
@@ -115,47 +101,39 @@
     <!-- slider ends here......  -->
 
     <!-- form section starts here....  -->
-    <section>
+    <form action="">
+
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <form action="">
-              
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label"></label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-
-                <label for="exampleFormControlInput1" class="form-label"></label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label"></label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-            </form>
-          </div>
+          <div class="col-md-6"></div>
+          <div class="col-md-6"></div>
+          <div class="col-md-6"></div>
+          <div class="col-md-6"></div>
+          <div class="col-md-6"></div>
+          <div class="col-md-6"></div>
         </div>
       </div>
-    </section>
+
+    </form>
     <!-- form section ends here....  -->
 
     <!-- card section starts here....  -->
 
-    <section class="pt-4 pb-4 bg-dark">
+    <section class=" mt-5 pt-4 pb-4 bg-gray-col ">
       <div class="container">
         <div class="row">
-          <div class="text-white">
-            <h3 class="fs-5">vehicle Models</h3>
-            <h2 class="fs-2"><b>Our rental fleet</b></h2>
+          <div class="">
+            <h3 class="fs-5 font-sec-col">vehicle Models</h3>
+            <h2 class="fs-2 font-prime-col"><b>Our rental fleet</b></h2>
           </div>
           <div class="col-md-3">
             <!-- card 1  -->
-            <div class="card" style="width: 17rem">
-              <img src="images/thar.jfif" class="card-img-top" alt="..." />
+            <div class="card card-height" style="width: 17rem">
+              <img src="images/thar.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Mahindra Thar</h5>
                 <p class="card-text">
-                <ul class="ul-style-none">
+                <ul class="">
                   <li>Petrol</li>
                   <li>Doors: 3</li>
                   <li>Seats: 5</li>
@@ -163,7 +141,7 @@
                   <li>Luggage: 2 bags</li>
                 </ul>
                 </p>
-                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal"
+                <button type="button" class="btn btn-card-hover " data-bs-toggle="modal"
                   data-bs-target="#mahindra_thar_blk">
                   Know More...
                 </button>
@@ -173,12 +151,12 @@
 
           <div class="col-md-3">
             <!-- card 2  -->
-            <div class="card" style="width: 17rem">
-              <img src="images/swift.jfif" class="card-img-top" alt="..." />
+            <div class="card  card-height " style="width: 17rem">
+              <img src="images/swift.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Maruti Suzuki Swift</h5>
                 <p class="card-text">
-                <ul class="ul-style-none">
+                <ul class="">
                   <li>Petrol</li>
                   <li>Doors: 4</li>
                   <li>Seats: 5</li>
@@ -186,7 +164,7 @@
                   <li>Luggage: 2 bags</li>
                 </ul>
                 </p>
-                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal" data-bs-target="#ms_swift">
+                <button type="button" class="btn btn-card-hover " data-bs-toggle="modal" data-bs-target="#ms_swift">
                   Know More...
                 </button>
               </div>
@@ -195,12 +173,12 @@
 
           <div class="col-md-3">
             <!-- card 3 -->
-            <div class="card" style="width: 17rem">
-              <img src="images/nexon.png" class="card-img-top" alt="..." />
+            <div class="card  card-height " style="width: 17rem">
+              <img src="images/nexon.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Tata Nexon</h5>
                 <p class="card-text">
-                <ul class="ul-style-none ">
+                <ul class=" ">
                   <li>Petrol</li>
                   <li>Doors: 4</li>
                   <li>Seats: 5</li>
@@ -208,7 +186,7 @@
                   <li>Luggage: 2 bags</li>
                 </ul>
                 </p>
-                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal" data-bs-target="#tata_nexon">
+                <button type="button" class="btn btn-card-hover " data-bs-toggle="modal" data-bs-target="#tata_nexon">
                   Know More...
                 </button>
               </div>
@@ -216,12 +194,12 @@
           </div>
           <div class="col-md-3">
             <!-- card 4  -->
-            <div class="card" style="width: 17rem">
-              <img src="images/i20.jfif" class="card-img-top" alt="..." />
+            <div class="card card-height " style="width: 17rem">
+              <img src="images/i20.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Hundai i20</h5>
                 <p class="card-text">
-                <ul class="ul-style-none">
+                <ul class="">
                   <li>Petrol</li>
                   <li>Doors: 4 </li>
                   <li>Seats: 5 </li>
@@ -229,7 +207,7 @@
                   <li>Luggage: 2 bags </li>
                 </ul>
                 </p>
-                <button type="button" class="btn bg-btn-color" data-bs-toggle="modal" data-bs-target="#hudai_i20">
+                <button type="button" class="btn btn-card-hover " data-bs-toggle="modal" data-bs-target="#hudai_i20">
                   Know More...
                 </button>
               </div>
@@ -240,17 +218,69 @@
     </section>
     <!-- card section ends here...  -->
 
+
+    <!-- why choose us ?  -->
+    <section class="bg-gray-col mt-pt mb-pb">
+      <div class="container">
+        <div class="row why-choose-us">
+          <div class="why-choose-us-heading">
+            <h3>Why Choose Us?</h3>
+          </div>
+          <div class="col-md-3">
+            <!-- card 1  -->
+            <div id="why-choose-us1" class=" why-choose-us-card">
+              <i class="bi bi-shield-check why-choose-us-icon"></i>
+              <div class="mt-pt">
+                
+                <h4>Well Maintained Vehicle</h4>
+                <p>clean, safe and regularly serviced vehicles.</p>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 2  -->
+            <div id="why-choose-us2" class="why-choose-us-card">
+               <i class="bi bi-currency-rupee why-choose-us-icon"></i>
+              <div class="mt-pt">
+               
+                <h4>Affordable Prices</h4>
+                <p>Best rates for your journy.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 3  -->
+            <div id="why-choose-us3" class="why-choose-us-card">
+              <i class="bi bi-calendar3 why-choose-us-icon"></i>
+              <div class="mt-pt">
+                <h4 >Easy Booking</h4>
+                <p>Quick and hassle-free process.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <!-- card 4  -->
+            <div id="why-choose-us4" class="why-choose-us-card" style="border: none;">
+               <i class="bi bi-headset why-choose-us-icon" ></i>
+              <div class="mt-pt" >
+               
+                <h4 >24/7 Support</h4>
+                <p>We are always here to help you.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- accordian  section starts here...  -->
     <section class="pb-4">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 car-posi">
-            <!-- car iamge  -->
-             <div class=" " >
-              <img src="images/crop-img.png" alt="Swift" class="car-img-fixed">
-             </div>
-          </div>
-          <div class="col-md-6">
+         
+          <div class="col-md-12">
             <!--Accordion  FAQs starts here...  -->
             <div class="accordion" id="accordionExample">
               <h2>FAQs</h2>
@@ -342,72 +372,67 @@
 
   <!-- footer starts here....  -->
   <footer class="mt-3">
-    <section class="bg-section-color pt-4 ">
-      <div class="container text-white pb-4">
+    <section class="pt-4 bg-prime-col">
+      <div class="container text-white pb-3">
         <div class="row">
           <div class="col-md-3">
-            <img src="images/sq logo.png " alt="logo" height="90" width="250" class="img-fluid nav-b" />
+            <img src="images/sq logo.png " alt="logo" height="70" width="220" class="img-fluid" />
           </div>
-          <div class="col-md-3 footer-links">
+          <div class="col-md-3">
             <h4>Quick Links</h4>
-            <ul class="footer-links">
-              <li><a href="index.html" class="footer-links">Home</a></li>
+            <ul class="text-decor">
+              <li><a href="index.html" class="text-decor">Home</a></li>
               <li>
-                <a href="pages/about_us.html" class="footer-links">About Us</a>
+                <a href="pages/about_us.html" class="text-decor">About Us</a>
               </li>
               <li>
-                <a href="pages/contact.html" class="footer-links">Contact</a>
+                <a href="pages/contact.html" class="text-decor">Contact</a>
               </li>
-              <li><a href="pages/cars.html" class="footer-links">Cars</a></li>
+              <li><a href="pages/cars.html" class="text-decor">Cars</a></li>
               <li>
-                <a href="pages/bikes.html" class="footer-links">Bikes</a>
+                <a href="pages/bikes.html" class="text-decor">Bikes</a>
               </li>
             </ul>
           </div>
           <div class="col-md-3">
             <h4>Address</h4>
             <address>
-              <img src="images/icons/icons8-location-40.png" class="icon-size" alt="">
+              <i class="bi bi-geo-alt-fill"></i>
               Shop No. 1, Kanher Rd, Suvarngad Apartment Near Travel India
               Club, Rajendra Nagar, Navi Peth, Sadashiv Peth, Pune,
               Maharashtra 411030, India
             </address>
           </div>
-          <div class="col-md-3 footer-links">
-            <h4>Contact</h4>
+          <div class="col-md-3 text-decor">
+            <a href="pages/contact.html" class="nav-link">Contact</a>
             <p>
               <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJZdBXKWnMqGFBFDlVrgWFVDJmTmgLXLzzrbjJgBprfhcbFMFMBwQhbLwqrvxjrVgRtFzMg"
-                class="footer-links">
-                <img src="images/icons/icons8-email-50.png" class="icon-size" alt="" />
+                class="text-decor text-decor">
+                <i class="bi bi-envelope "></i>
                 rentwheels@gmail.com</a>
             </p>
             <p>
-              <a href="" class="footer-links"><img src="images/icons/icons8-phone-50.png" class="icon-size" alt="" />
+              <a href="" class="text-decor fs-5"><i class="bi bi-telephone"></i>
                 (020)-653258</a>
             </p>
-            <div>
-              <a href=""><img src="images/icons/icons8-facebook-ios-27-filled-32.png" class="icon-size" alt="" /></a>
-              <a href=""><img src="images/icons/icons8-instagram-50.png" class="icon-size" alt="" /></a>
-
-              <a href=""><img src="images/icons/icons8-linkedin-ios-27-filled-32.png" class="icon-size" alt="" /></a>
-
-              <a href=""><img src="images/icons/icons8-x-45.png" class="icon-size" alt="" /></a>
-
-              <link type="image/png" sizes="30x30" rel="icon" href=".../icons8-instagram-ios7-16.png">
+            <div class="fs-4 ">
+              <a href=""><i class="bi bi-whatsapp text-white "></i></a>
+              <a href=""><i class="bi bi-facebook text-white "></i></a>
+              <a href=""><i class="bi bi-instagram text-white "></i></a>
             </div>
           </div>
         </div>
-        </div>
       </div>
-      <div class="containe copyright-text">
+      </div>
+      <div class="containe ">
         <div class="row ">
-          <div class="col-md-12 ">
-          <p> &copy; 2026 RentWheels. All Rights Reserved. | Your Journey. Your Wheels. Your Way.</p>
+          <div class="col-md-12 text-white pt-2" style="text-align: center; border-top: 1px solid white;">
+            <p> &copy; 2026 RentWheels. All Rights Reserved. | Your Journey. Your Wheels. Your Way.</p>
           </div>
-      </div>
+        </div>
     </section>
-    
-    
+
+
 
   </footer>
   <!-- footer ends here....  -->

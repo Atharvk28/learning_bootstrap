@@ -1,113 +1,73 @@
-.header-height-fa{
-  height: 90px;
+.bg-prime-col{
+  background-color: #00213b;
 }
-.bg-section-color{
-  /* footer color home page  */
-  background-color: #002440;
+.bg-sec-col{
+  background-color: #fe7905;
 }
-.bg-btn-color{
-  background-color: #fe7705;
-  color: aliceblue;
+.bg-gray-col{
+  background-color: #f5f7f9;
 }
-.bg-btn-color:hover{
-  color: black;
-  background-color: #efedeb;
+.font-prime-col{
+  color: #00213b;
 }
-.bdr-radius{
-  /* border radius for home contacts services etc  */
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px; 
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+.font-sec-col{
+  color: #fe7905;
 }
-.car-select-form{
-  /* form for selecrt car and bike....  */
-  margin: 5px;
-  padding: 5px;
-  display: flex;
-  word-spacing: 5px;
+.text-decor{
+  text-decoration: none;
+  color: inherit;
+  list-style: none; 
 }
-.ul-style-none{
-  list-style: none;
+/* =========== margin and padding ========== */
+.mt-pt{
+  margin-top: 10px;
+  padding-top: 10px;
 }
-.nav-link{
-  margin-right: 5px; 
+.mb-pb{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
-.active{
-  font-size: 17px;
-  border-radius: 10px;
-
-}
-.nav-link:hover{
-  font-size: 23px;
-  background-color: #fe7705;
-  border-color: #fe7505de;
-  border-radius: 10px;
-
-}
-.active-navb{
-  background-color: #fe7705;
-
-}
-.dropdown-item{
-  height: 60px;
-  font-size: 22px;
-}
-.dropdown-item:hover{
-  background-color: #fe7705;
-  font-size: 22px;
-}
-.footer-links{
-  text-decoration:none;
-  font-size: 22px;
-  list-style-type: none;
+/* ========== button hover effect ========== */
+.btn-hover:hover{
+  background-color: #fe7905;
   color: white;
+  font-size: 22px;
+}
+
+
+/* ========== header ==========  */
+.active{
+  border-bottom: 3px solid #fe7905;
+  color: white !important;
+
+}
+.header-hover:hover{
+  font-size: 20px;
+  color: white;
+  border-bottom: 3px solid #fe7905;
+}
+
+/* ========== card hover ========== */
+.btn{
+  background-color:#fe7905;
+  color: white; 
+}
+.card{
+  height: 390px; ;
+  border: 2px solid #dde2e6;
 }
 .card:hover{
-  /* card hover effect  in home page */
-  border-color: #000000;
-  background-color:#002440;
-  color: white;
+  background-color: #00213b;
+  color: #fe7905;
 }
 
+.btn-card-hover:hover{
+  background-color: #fe7905;
+  color: white;
+  font-size: 18px;
+}
+
+/* ==========image in card size ==========  */
 .card-img-top{
-/* image size in cards in home page  */
-width:270px;
-height:152px;
-
-}
-.icon-size{
-  /* size for footer icons  */
-  height: 20px;
-  background-color:transparent;
-}
-
-/* home page modal list  */
-.modal-header,.modal-body,.modal-footer{
-  background-color: #002440;
-  color: white;
-}
-.copyright-text{
-  margin-top: 4px;
-  padding-top: 3px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: #efedeb;
-  font-size: 15px;
-  font-weight: 300;
-  border-top: 1px solid black;
-}
-
-/* car near faqs css  */
-.car-posi{
-  position: relative;
-
-}
-.car-img-fixed{
-  margin: 5PX;
-  padding: 5px;
-  position: absolute;
-  right: 5px;
-  width:700px ;
+  height: 155px !important;
 }

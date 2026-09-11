@@ -6,5 +6,7 @@
   margin-top: 10px;
   padding-top: 3px;
   border: 3px solid black;
-  height: 440px !important;
+}
+.card-title{
+  font-size: 18px;
 }

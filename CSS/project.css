@@ -31,7 +31,7 @@
 .btn-hover:hover{
   background-color: #fe7905;
   color: white;
-  font-size: 22px;
+  font-size: 17px;
 }
 
 
@@ -58,7 +58,7 @@
 }
 .card:hover{
   background-color: #00213b;
-  color: #fe7905;
+  color: #ffff;
 }
 
 .btn-card-hover:hover{
